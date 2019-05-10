@@ -1,0 +1,26 @@
+{
+  "name": "create-crud-client",
+  "version": "1.0.1",
+  "description": "Create CRUD interface for http requests.",
+  "main": "./lib/createCrudClient.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jest",
+    "test-unit-all": "npm run test -- unit"
+  },
+  "repository": "git://github.com/isaacSennerholt/create-crud-client.git",
+  "keywords": [
+    "http",
+    "https",
+    "crud",
+    "crud client",
+    "crud api"
+  ],
+  "author": "isaacsennerholt <isaac.sennerholt@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "assert-object-shape": "git+https://github.com/isaacSennerholt/assert-object-shape.git"
+  },
+  "devDependencies": {
+    "jest": "20.0.4"
+  }
+}
