@@ -18,7 +18,7 @@
   "author": "isaacsennerholt <isaac.sennerholt@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "assert-object-shape": "git+https://github.com/isaacSennerholt/assert-object-shape.git"
+    "assert-object-shape": "^1.0.0"
   },
   "devDependencies": {
     "jest": "20.0.4"
